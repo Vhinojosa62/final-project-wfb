@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.banner{
+    height: 200px;
+    width: 100vw;
+    background-color: #a6a6a6;
+}
+.logo{
+    height: 350px;
+    width: 300px;
+    background-image: url(/Final/logo1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    bottom: 55px;
+    left: 5vw;
+}
+.nav-bar{
+    height: 100px;
+    width: 100vw;
+}
+.buttons{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+    font-size: 20px;
+    margin: 8px;
+}
+ul{
+    list-style: none;
+}
