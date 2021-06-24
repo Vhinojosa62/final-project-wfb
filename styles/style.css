@@ -1,0 +1,182 @@
+p{
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    box-sizing: inherit;
+    background: #fff;
+}
+
+main {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding: 0;
+    margin-top: 0 auto;
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-logo {
+    height: 400px;
+    width: auto;
+    margin: 0;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: lightpink;
+    border: 2px solid lightpink;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    width: auto;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-image {
+    height: 90vh;
+    width: 100%;
+    background-image: url(/images/hero-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: flex-start; */
+    
+
+}
+
+.slogan {
+    font-size: 45px;
+    color: black;
+    position: relative;
+    left: 185px;
+    top: 250px;
+}
+.content-area{
+    display: flex;
+    flex-direction: row;
+}
+.aside-content {
+    width: 35vw;
+    height: 100vh;
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: inline-block;
+}
+.first-header{
+    text-align: center;
+    font-size: 50px;
+}
+.header-plant{
+    height: 500px;
+    width: 300px;
+    background-image: url(/images/header-plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+    position: relative;
+    right: 45px;
+}
+
+.main-content {
+    width: 65vw;
+    height: 100vh;
+    background: white;
+}
+.content-pic{
+    height: 100%;
+    width: 100%;
+    background-image: url(/images/scent1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner{
+    height: 200px;
+    width: 100vw;
+    background-color: #a6a6a6;
+}
+
+.nav-bar{
+    height: 100px;
+    width: 100vw;
+}
+.buttons{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    bottom: 50px;
+    font-size: 20px;
+    margin: 8px;
+}
+
+footer {
+    width: 100vw;
+    background-color: rgb(74, 88, 74);
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+#gmap_canvas {
+    width: 200vw;
+    height: auto;
+}
+
+iframe {
+    height: auto;
+    width: 100vw;
+}
